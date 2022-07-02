@@ -9,7 +9,7 @@ module.exports = {
             memberTarget.ban();
             message.channel.send("User has been banned");
             }else{
-                message.channel.send("You cannot ban Members :(")
+                message.channel.send("You cannot ban members :(")
             }
         }else{
             message.channel.send(`You coudn't ban that member!`);
