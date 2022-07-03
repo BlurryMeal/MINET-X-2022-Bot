@@ -1,3 +1,3 @@
 module.exports = () =>{
-    console.log('MINET X 2021 Bot is Online!')
+    console.log('MINET X 2022 Bot is Online!')
 }

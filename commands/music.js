@@ -9,7 +9,7 @@ module.exports = {
 			.setColor('#6699EE')
 			.setTitle('General Music Commands')
 			.setURL('https://minet.co')
-			.setDescription('X 2021 Bot has a fully fledged Music System developed by MINET. To get started join a voice channel and play a song by typing `xplay (Song Name)` \n\nHere is the list of all the commands currently present in BlurryBot. ')
+			.setDescription('X 2022 Bot has a fully fledged Music System developed by MINET. To get started join a voice channel and play a song by typing `xplay (Song Name)` \n\nHere is the list of all the commands currently present in BlurryBot. ')
 			.setThumbnail('https://i.imgur.com/vBWPJ6R.png')
             .addFields(
 				{ name: 'xhelp', value: 'Displays this message.' },

@@ -15,7 +15,7 @@ module.exports = {
                 { name: 'Number Of Participants', value: '1 Member',inline: true }
 			)
 			.setTimestamp()
-			.setFooter('X 2021');
+			.setFooter('X 2022');
 
 		message.channel.send(exampleEmbed);
 	}

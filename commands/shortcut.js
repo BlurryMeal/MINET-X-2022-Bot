@@ -24,7 +24,7 @@ module.exports = {
                 { name: 'xnotacryptxhint', value: 'Not-so-much a shortcut for xcryptx.' ,inline: true}
 			)
 			.setTimestamp()
-			.setFooter('X 2021');
+			.setFooter('X 2022');
 
 		message.channel.send(exampleEmbed);
 	}
