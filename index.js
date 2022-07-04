@@ -10,9 +10,19 @@ config = {
 	prefix: "x",
 };
 
+Auditlog(client, {
+	"992087587529437224": {
+		auditlog: "audit-logs",	
+		movement: "audit-logs",
+		auditmsg: '992087588066304099', 
+		voice: false, 
+		trackroles: false, 
+	}
+});
+
 client.on('ready', () => {
 console.log(`Logged in as ${client.user.tag}!`);
-});
+});	
 
 
 client.commands = new Discord.Collection();
@@ -45,7 +55,7 @@ client.once('ready', () => {
 	client.user.setActivity("X 2022 | xhelp");
 	Welcome(client, {
 		publicmsg : "@MEMBER Welcome to MINET X 2022. ",
-		publicchannel : "852934347223990302"
+		publicchannel : "992087588267626622"
 		})
 	});
 /*
