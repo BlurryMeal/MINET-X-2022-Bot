@@ -9,7 +9,7 @@ module.exports = {
 			.setDescription('https://docs.google.com/spreadsheets/d/1WEr1eGINkKXvDXJ3fQilKoe6qz3S2gI4iw_Ihn9IZ_s/edit?usp=sharing')
 			.setThumbnail('https://i.imgur.com/vBWPJ6R.png')
 			.setTimestamp()
-			.setFooter('X 2021');
+			.setFooter('X 2022');
 
 		message.author.send(exampleEmbed);
 	}
