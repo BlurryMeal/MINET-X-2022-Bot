@@ -11,10 +11,10 @@ config = {
 };
 
 Auditlog(client, {
-	"992087587529437224": {
-		auditlog: "audit-logs",	
-		movement: "audit-logs",
-		auditmsg: '992087588066304099', 
+	"996366654755844104": {
+		auditlog: "audit-log",	
+		movement: "audit-log",
+		auditmsg: '996366654755844104', 
 		voice: false, 
 		trackroles: false, 
 	}
@@ -32,42 +32,40 @@ client.events = new Discord.Collection();
 })
 
 //reaction roles
-//let minet_emoji = system.createOption("X2021:870714745861308466", "852934347027120177");
+let minet_emoji = system.createOption("✅", "996366654231564332");
+let surprise_emoji = system.createOption("vsln:861936930387001374", "996366654248333385");
+let design_emoji = system.createOption("dhmnuwu:861927501924007946", "996366654248333388");
+let programming_emoji = system.createOption("babysgr:861940660995227690", "996366654248333386");
+let gaming_emoji = system.createOption("moan:859808418973745202", "996366654248333383");
+let gd_emoji = system.createOption("rishvibe:861962545300897843", "996366654231564335");
+let quiz_emoji = system.createOption("malheart:862557852245819395", "996366654231564337");
+let photography_emoji = system.createOption("cutieprez:861929319635091496", "996366654231564334");
+let pitching_emoji = system.createOption("crook:861969952986890240", "996366654248333390");
+let filmmkaing_emoji = system.createOption("creep:870652321867120641", "996366654231564333");
+let crossword_emoji = system.createOption("creep:870652321867120641", "996450612348731483");
 
+system.createMessage("870663605295665234", "870660962716381294", 10, null,pitching_emoji, design_emoji , programming_emoji, gaming_emoji, gd_emoji, quiz_emoji, surprise_emoji, photography_emoji, filmmkaing_emoji, crossword_emoji);
+system.createMessage("996449590129729677", "996366654290284608", 1, null, minet_emoji);
 
-//let surprise_emoji = system.createOption("vsln:861936930387001374", "852934347027120173");
-//let design_emoji = system.createOption("dhmnuwu:861927501924007946", "852934347027120169");
-//let programming_emoji = system.createOption("babysgr:861940660995227690", "852934347027120174");
-//let gaming_emoji = system.createOption("moan:859808418973745202", "852934347027120172");
-//let gd_emoji = system.createOption("rishvibe:861962545300897843", "852934347027120168");
-//let quiz_emoji = system.createOption("malheart:862557852245819395", "852934347027120171");
-//let photography_emoji = system.createOption("cutieprez:861929319635091496", "852934347001430075");
-//let pitching_emoji = system.createOption("crook:861969952986890240", "852934347001430073");
-//let filmmkaing_emoji = system.createOption("creep:870652321867120641", "852934347001430076");
-
-//system.createMessage("870663605295665234", "870660962716381294", 9, null,pitching_emoji, design_emoji , programming_emoji, gaming_emoji, gd_emoji, quiz_emoji, surprise_emoji, photography_emoji, filmmkaing_emoji);
-//system.createMessage("870890609299316806", "855353241172836382", 1, null, minet_emoji);
-
-//system.init();
+system.init();
 
 
 client.once('ready', () => {
-	client.user.setActivity("X 2022 | xhelp");
+	client.user.setActivity("X 2022 | minet.co");
 	Welcome(client, {
 		publicmsg : "@MEMBER Welcome to MINET X 2022. ",
-		publicchannel : "992087588267626622"
+		publicchannel : "996366655041048702"
 		})
-	});
-/*
+
 	//server stats
 
-	 const guild = client.guilds.cache.get('852934347001430067');
-	 const totalUsers = client.channels.cache.get('852934347223990303');
-	 const Participants = client.channels.cache.get('852934347223990304');
+	 const guild = client.guilds.cache.get('996366654231564328');
+	 const totalUsers = client.channels.cache.get('996366655041048703');
+	 const Participants = client.channels.cache.get('996366655041048704');
 	 setInterval(function () {
 	 	console.log('Getting stats update..')
 	 	var userCount = guild.memberCount;
-	 	var participantCount = guild.roles.cache.get('852934347027120177').members.size;
+	 	var participantCount = guild.roles.cache.get('996366654231564332').members.size;
 	 	console.log("Total Members: " + userCount);
 	 	console.log("Participants: " + participantCount);
 	 	totalUsers.setName("Total Members: " + userCount)
@@ -79,7 +77,7 @@ client.once('ready', () => {
 	 		.catch(console.error);
 	 }, 30000)
 });
-*/
+
 
 client.on('guildMemberAdd', member => {
 	console.log('User ' + member.user.username + ' has joined the server!')

@@ -15,6 +15,7 @@
     "@distube/ytdl": "^2.0.6",
     "@distube/ytpl": "^1.0.12",
     "@distube/ytsr": "^1.1.5",
+    "bookman": "^3.3.3",
     "captcha-for-discord": "^1.0.0",
     "chrome-aws-lambda": "^5.5.0",
     "discord-auditlog": "^2.4.5",

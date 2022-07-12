@@ -5,8 +5,8 @@ module.exports = {
     execute(message, args, cmd, client, Discord){
         const target = message.mentions.users.first();
         if(target){
-            if(message.member.roles.cache.has('852934347044421670')){
-                let mainRole = message.guild.roles.cache.find(role => role.name === 'Participant');
+            if(message.member.roles.cache.has('996366654290284606')){
+                let mainRole = message.guild.roles.cache.find(role => role.name === 'participant');
                 let muteRole = message.guild.roles.cache.find(role => role.name === 'Muted');
 
                 let memberTarget = message.guild.members.cache.get(target.id);

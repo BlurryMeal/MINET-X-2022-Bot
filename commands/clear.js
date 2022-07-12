@@ -2,7 +2,7 @@ module.exports = {
     name: 'clear',
     description: 'clear messages!',
     async execute(message, args, cmd, client, Discord) {
-        if(message.member.roles.cache.has('852934347044421670')){
+        if(message.member.roles.cache.has('996366654290284606')){
             if(!args[0]) return message.reply("bro how are you so dumb! add a number :|");
             if(isNaN(args[0])) return message.reply("damn, we dont have a shortage of dumb people... add a real number!");
 
