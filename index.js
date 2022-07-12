@@ -33,18 +33,18 @@ client.events = new Discord.Collection();
 
 //reaction roles
 let minet_emoji = system.createOption("✅", "996366654231564332");
-let surprise_emoji = system.createOption("vsln:861936930387001374", "996366654248333385");
-let design_emoji = system.createOption("dhmnuwu:861927501924007946", "996366654248333388");
-let programming_emoji = system.createOption("babysgr:861940660995227690", "996366654248333386");
-let gaming_emoji = system.createOption("moan:859808418973745202", "996366654248333383");
-let gd_emoji = system.createOption("rishvibe:861962545300897843", "996366654231564335");
-let quiz_emoji = system.createOption("malheart:862557852245819395", "996366654231564337");
-let photography_emoji = system.createOption("cutieprez:861929319635091496", "996366654231564334");
-let pitching_emoji = system.createOption("crook:861969952986890240", "996366654248333390");
-let filmmkaing_emoji = system.createOption("creep:870652321867120641", "996366654231564333");
-let crossword_emoji = system.createOption("creep:870652321867120641", "996450612348731483");
+let surprise_emoji = system.createOption("7️⃣", "996366654248333385");
+let design_emoji = system.createOption("2️⃣", "996366654248333388");
+let programming_emoji = system.createOption("3️⃣", "996366654248333386");
+let gaming_emoji = system.createOption("4️⃣", "996366654248333383");
+let gd_emoji = system.createOption("5️⃣", "996366654231564335");
+let quiz_emoji = system.createOption("6️⃣", "996366654231564337");
+let photography_emoji = system.createOption("8️⃣", "996366654231564334");
+let pitching_emoji = system.createOption("1️⃣", "996366654248333390");
+let filmmkaing_emoji = system.createOption("9️⃣", "996366654231564333");
+let crossword_emoji = system.createOption("🔟", "996450612348731483");
 
-system.createMessage("870663605295665234", "870660962716381294", 10, null,pitching_emoji, design_emoji , programming_emoji, gaming_emoji, gd_emoji, quiz_emoji, surprise_emoji, photography_emoji, filmmkaing_emoji, crossword_emoji);
+system.createMessage("996496200184381460", "996366655275946064", 10, null,pitching_emoji, design_emoji , programming_emoji, gaming_emoji, gd_emoji, quiz_emoji, surprise_emoji, photography_emoji, filmmkaing_emoji, crossword_emoji);
 system.createMessage("996449590129729677", "996366654290284608", 1, null, minet_emoji);
 
 system.init();
