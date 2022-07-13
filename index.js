@@ -9,7 +9,7 @@ const system = new ReactionRole("OTkyNDQxODQxNjUzOTE1NzA5.G6JrPQ.e2WLKH6oNirr1wf
 config = {
 	prefix: "x",
 };
-
+//test
 Auditlog(client, {
 	"996366654755844104": {
 		auditlog: "audit-log",	
